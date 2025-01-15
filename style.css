@@ -1,0 +1,127 @@
+#GameBoard {
+    display: grid ;
+    grid-template-columns: repeat(4 , 50px);
+    gap: 1em;
+    background-color: rgb(35, 31, 116);
+    padding: 10px;
+    box-shadow: white 0 10px 10px;
+    border-radius: 10px;
+    outline-style: double;
+    outline-width:2px ;
+    outline-color: rgb(255, 255, 255) ;
+    justify-content: center;
+    width: 240px;
+    
+}
+.cel {
+    background-color:rgb(221, 233, 240) ;
+    cursor: pointer;;
+    border-radius: 5px;
+    font-family:bradley Hand,cursive ;
+    transition: 500ms;
+    text-align: center;
+   
+}
+
+.cellshow {
+    color: black;
+    user-select: auto;
+}
+.cellhide {
+    color: transparent;
+    user-select: none;
+    
+    
+}
+.cel:hover {
+    background-color: rgb(82, 75, 228);
+    transition: 500ms;
+    transform: scale(1.5);
+}
+.cel:active {
+    background-color: rgb(115, 110, 211);
+}
+
+h1 {
+    color: rgb(27, 27, 27);
+    font-family:bradley Hand,cursive ;
+    
+
+}
+
+body {
+    background: -webkit-radial-gradient(30px 20px, circle farthest-side, #a2e3f5, #45bbdf);
+   
+}
+button {
+    color: rgb(35, 31, 116);
+    background-color: rgb(221, 233, 240);
+    font-family:bradley Hand,cursive ;
+    border-radius: 5px ;
+    border-color: white;
+    transition: 500ms;
+    
+    
+}
+
+
+#gifs {
+    width: 70px;
+    position: absolute;
+    top: 230px;
+    
+    left: 210px;
+}
+#gift {
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    
+    left: 440px;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
+#tp {
+    position: absolute;
+    font-size: 30px;
+    left: 270px;
+    top: 70px;
+    background-color: rgb(35, 31, 116);
+    border-radius: 10px;
+    font-family:bradley Hand,cursive ;
+    border-radius: 5px ;
+    outline-style: double;
+    outline-width:2px ;
+    outline-color: rgb(255, 255, 255) ;
+    color: white;
+}
+
+#giffi {
+    position: absolute;
+    left: 210px;
+    pointer-events: none
+    
+}
+
+#mp {
+    position: absolute;
+    font-size: 30px;
+    font-family:bradley Hand,cursive ;
+    color:rgb(35, 31, 116);
+    left: 237px;
+    top: 70px;
+}
+
+.getpoint {
+    transform: scale(70px);
+}
+
+#gifst {
+    position: absolute;
+    width: 60px;
+    top: 60px;
+    left: 300px;
+}
